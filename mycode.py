@@ -12,8 +12,8 @@ df = pd.DataFrame(data)
 
 # Example of adding new rows for dataset versioning (V2, V3)
 
-#new_row_v2 = {'Name': 'V2', 'Age': 20, 'City': 'City1'}
-#df.loc[len(df.index)] = new_row_v2
+new_row_v2 = {'Name': 'sabir washal', 'Age': 20, 'City': 'Chiniot'}
+df.loc[len(df.index)] = new_row_v2
 
 #new_row_v3 = {'Name': 'V3', 'Age': 30, 'City': 'City2'}
 #df.loc[len(df.index)] = new_row_v3
